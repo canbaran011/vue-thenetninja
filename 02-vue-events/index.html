@@ -10,12 +10,13 @@
 </head>
 <body>
     <div id="vue-app">
-        <h1> {{greet('afternoon')}} </h1>
-        <h1> {{ name }} </h1>
-        <h2>Job = {{ job }}</h2>
-        <p><a v-bind:href="website">Google</a></p>
-        <input type="text" :value="name">
-        <p v-html="websiteTag" ></p>
+        <h1> Events </h1>
+        <button v-on:click="add(1)">Add a Year</button>
+        <button v-on:click="substract(1)">Substract a Year</button>
+        <button v-on:dblclick="add(10)">Add 10 Year</button>
+        <button v-on:dblclick="substract(10)">Substract 10 Year</button>
+        <p> My age is {{age}} </p>
+        <div id="canvas"></div>
     </div>
     <script src="app.js"></script>
 </body>
