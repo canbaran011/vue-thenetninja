@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="vue-app">
+        <h1>Conditionals</h1>
+        <button @click="error= !error" >Toggle Error</button>
+        <button @click="success= !success" >Toggle Success</button>
+        <!-- <p v-if="error">Error Happens !</p>
+        <p v-if="success" >Success Happens</p> -->
+
+        <p v-show="error">There is error</p>
+        <p v-show="success">There is success</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
