@@ -36,7 +36,7 @@ export default {
     };
   },
   methods:{
-    updateTitle:function(updatedTitle){
+    updateTitle:function(updatedTitle){//24
       this.title = updatedTitle;
     }
   }
