@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+## binding - http - custom directives - filters - mixins - routing
 ## Build Setup
 
 ``` bash
